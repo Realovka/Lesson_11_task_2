@@ -33,7 +33,7 @@ public class Main {
         products.addAll(productsNew);
         System.out.println();
         shop.removeById(21); //удаляем один товар
-        Collections.sort(products, new SortByGet());   // сортируем товар по добавлению. Последний добавленный идет первым
+        Collections.sort(products, new SortByAdd());   // сортируем товар по добавлению. Последний добавленный идет первым
         shop.getAll();
         System.out.println();
         shop.replaceProduct(product7);//редактируем товар

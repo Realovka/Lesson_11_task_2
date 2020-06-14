@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class SortByGet implements Comparator <Product>{
+public class SortByAdd implements Comparator <Product>{
     @Override
     public int compare(Product o1, Product o2) {
         List<Product> products = new ArrayList<>();
